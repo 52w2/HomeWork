@@ -11,48 +11,53 @@
     <!--h1 اكبر نوع خط-->
     <!--information-->
 
-    <h1>welcome to my profile</h1>
-<ul>
-    <li><a href="#info"> توجه الى معلوماتي</a> </li> 
-    <li><a href="#goal"> توجه الى اهدافي</a> </li> 
-    <li><a href="#sus"> توجه الى الاقسام </a></li>
-</ul>
-    
+    <header>
+        <h1>welcome to my profile</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#info"> توجه الى معلوماتي</a> </li>
+            <li><a href="#goal"> توجه الى اهدافي</a> </li>
+            <li><a href="#sus"> توجه الى الاقسام </a></li>
+            <li> <a href="#project">توجه الى مشاريعي</a></li>
+        </ul>
+    </nav>
 
     <h2 id="info">معلوماتي</h2>
-    
+
     <table border="1">
-<tr>
-<th>المدخلات</th>
-<th>المخرجات</th>
-</tr>
+        <tr>
+            <th>المدخلات</th>
+            <th>المخرجات</th>
+        </tr>
 
-<tr>
-<td>الاسم</td>
-<td>وليد العنزي</td>
-</tr>
-<tr>
-<td>التخصص</td>
-<td>برمجة وتطوير الويب</td>
-</tr>
-<tr>
-<td>الخبرة</td>
-<td>مبتدئ في HTML ولكن لدي خبرات في لغات اخرى</td>
-</tr>
+        <tr>
+            <td>الاسم</td>
+            <td>وليد العنزي</td>
+        </tr>
+        <tr>
+            <td>التخصص</td>
+            <td>برمجة وتطوير الويب</td>
+        </tr>
+        <tr>
+            <td>الخبرة</td>
+            <td>مبتدئ في HTML ولكن لدي خبرات في لغات اخرى</td>
+        </tr>
 
 
-</table>
- 
-    
+    </table>
+
+
     <dl>
-<dt>الاسم :</dt>
-<dd>وليد العنزي</dd>
+        <dt>الاسم :</dt>
+        <dd>وليد العنزي</dd>
 
-<dt>التخصص :</dt>
-<dd>برمجة وتطوير ويب</dd>
+        <dt>التخصص :</dt>
+        <dd>برمجة وتطوير ويب</dd>
 
-<dt>الخبره :</dt>
-<dd>مبتدئ في HTML ولكن لدي خبرات في لغات اخرى</dd>
+        <dt>الخبره :</dt>
+        <dd>مبتدئ في HTML ولكن لدي خبرات في لغات اخرى</dd>
     </dl>
 
     <h2 id="goal">الهدف من الموقع</h2>
@@ -61,21 +66,33 @@
 
     <hr>
 
-    <h2 id="sus">أقسام الموقع</h2>
+    <section id="sus">
+        <h2 id="sus">أقسام الموقع</h2>
 
-    <p>المقدمة عن HTML<br>كيفية استخدام الوسوم والعناصر <br>تعلم تنسيق النصوص باستخدام CSS</p>
-    <p> توجه الى <a href="https://tvtclms.edu.sa/login/index.php"> منصه التدرب الالكتروني </a> </p>
-    <p> توجه الى <a href="https://tvtclms.edu.sa/login/index.php" target="_blank"> منصه التدرب الالكتروني في صفحه جديده
-        </a> </p>
+        <p>المقدمة عن HTML<br>كيفية استخدام الوسوم والعناصر <br>تعلم تنسيق النصوص باستخدام CSS</p>
+        <p> توجه الى <a href="https://tvtclms.edu.sa/login/index.php"> منصه التدرب الالكتروني </a> </p>
+        <p> توجه الى <a href="https://tvtclms.edu.sa/login/index.php" target="_blank"> منصه التدرب الالكتروني في صفحه
+                جديده </a> </p>
+    </section>
 
     <hr>
-<ol>
-    <li><p> <b>خط عريض</b> </p></li>
-    <li><p> <i>خط مائل</i> </p></li>
-    <li><p> <u>تحته خط</u> </p></li>
-    <li><p> H<sub>2</sub>O </p></li>
-    <li><p> X<sup>3</sup> </p></li>
-</ol>
+    <ol>
+        <li>
+            <p> <b>خط عريض</b> </p>
+        </li>
+        <li>
+            <p> <i>خط مائل</i> </p>
+        </li>
+        <li>
+            <p> <u>تحته خط</u> </p>
+        </li>
+        <li>
+            <p> H<sub>2</sub>O </p>
+        </li>
+        <li>
+            <p> X<sup>3</sup> </p>
+        </li>
+    </ol>
     <p> <b>خط عريض</b> </p>
     <p> <i>خط مائل</i> </p>
     <p> <u>تحته خط</u> </p>
@@ -92,39 +109,40 @@
         <source src="res/quran.mp3" type="audio/mp3">
     </audio>
 
-</body>
 
+    <section id="project">
+        <h2 id="project">مشاريعي </h2>
+        <hr>
+        <a href="src/numbers-01.jpg" target="_blank"><img src="src/numbers-01.jpg" alt="number 1 " width="200">
+            <p>هذا المشروع كان تعاون مع زملائي</p>
+            <hr>
+        </a>
 
-<h2> مشاريع عملت عليها </h2>
-<hr>
-<a href="src/numbers-01.jpg" target="_blank"><img src="src/numbers-01.jpg" alt="number 1 " width="200">
-    <p>هذا المشروع كان تعاون مع زملائي</p>
-    <hr>
-</a>
+        <a href="src/numbers-02.jpg" target="_blank"><img src="src/numbers-02.jpg" alt="number 2 " width="200">
+            <p> وحصلنا على المركز الثاني</p>
+            <hr>
+        </a>
 
-<a href="src/numbers-02.jpg" target="_blank"><img src="src/numbers-02.jpg" alt="number 2 " width="200">
-    <p> وحصلنا على المركز الثاني</p>
-    <hr>
-</a>
+        <a href="src/numbers-03.jpg" target="_blank"> <img src="src/numbers-03.jpg" alt="number 6 " width="200">
+            <p>وشكرا لكم</p>
+            <hr </a>
 
-<a href="src/numbers-03.jpg" target="_blank"> <img src="src/numbers-03.jpg" alt="number 6 " width="200">
-    <p>وشكرا لكم</p>
-    <hr
- </a>
+            <a href="/src/images/1.jpg"> <img src="src/images/1.jpg" alt="kk" width="200">
+    </section>
 
-<a href="/src/images/1.jpg"> <img src="src/images/1.jpg" alt="kk"width="200">
-
-
-</a>
+    </a>
 
     </a>
 
 
 
+    <footer>
+        <P> للتواصل عن طريق <a href="mailto:445161035@tvtc.edu.sa"> <b> بريدي الالكتروني </b> </a> </P>
 
-    <P> للتواصل عن طريق <a href="mailto:445161035@tvtc.edu.sa"> <b> بريدي الالكتروني </b> </a> </P>
+        <hr>
+        <p> programmed by <a href=https://github.com/52w2 target="_blank"> Waleed </a> </p>
+    </footer>
 
-    <hr>
-    <p> programmed by <a href=https://github.com/52w2 target="_blank"> Waleed </a> </p>
+</body>
 
 </html>
