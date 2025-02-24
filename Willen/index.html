@@ -21,6 +21,7 @@
             <li><a href="#goal"> توجه الى اهدافي</a> </li>
             <li><a href="#sus"> توجه الى الاقسام </a></li>
             <li> <a href="#project">توجه الى مشاريعي</a></li>
+            <li> <a href="#contact">توجه الى التواصل</a></li>
         </ul>
     </nav>
 
@@ -44,7 +45,61 @@
             <td>الخبرة</td>
             <td>مبتدئ في HTML ولكن لدي خبرات في لغات اخرى</td>
         </tr>
+        <hr>
+        <br>
+        <form>
 
+            <label for="username">اسم المستخدم</label>
+            <input type="text" name="username" id="username" placeholder="اسم المستخدم"> <br>
+            <label for="password">كلمةالمرور</label>
+            <input type="password" name="password" id="password" placeholder="كلمة المرور"><br>
+            <label for="email">البريد الالكتروني</label>
+            <input type="email" name="email" id="email" placeholder="البريد الالكتروني"><br>
+            <label for="number">العمر</label>
+            <input type="number" name="number" id="number" max="29" min="18"><br>
+            <label for="date">الميلاد</label>
+            <input type="date" name="birthdate" id="date"><br>
+            <label for="tel">الهاتف</label>
+            <input type="tel" name="tel" id="tel" placeholder="ادخل الرقم"><br>
+            <br>
+            <p>اختر لغتك المفضله لتطوير الويب:</p>
+            <input type="radio" name="fav_lang" id="html">
+            <label for="html">HTML</label> <br>
+
+            <input type="radio" name="fav_lang" id="lua">
+            <label for="lua">LUA</label> <br>
+
+            <input type="radio" name="fav_lang" id="js">
+            <label for="js">JavaScript</label>
+            <br>
+            
+            <p>ماهي اهتماماتك:</p>
+            <input type="checkbox" name="interests" id="int1">
+            <label for="int1">القراءة</label> <br>
+
+            <input type="checkbox" name="interests" id="int2">
+            <label for="int2">الرياضة</label> <br>
+
+            <input type="checkbox" name="interests" id="int3">
+            <label for="int3">البرمجة</label>
+            <br>
+            <hr>
+
+
+            <label for="tcagree">هل انت موافق على <a
+                    href="https://kunmarket.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7-%D9%88%D8%A7%D9%84%D8%A3%D8%AD%D9%83%D8%A7%D9%85/page-1698474796?srsltid=AfmBOoo0YHyU32DSMNruzznOt27PLt_tYfXGEevMqaU0Kolj-mubeWa_"
+                    target="_blank" rel="noopener noreferrer">الشروط والاحكام ؟</a></label>
+            <input type="checkbox" name="tcagree" id="tcagree"><br>
+            <input type="submit" value="ارسال">
+            <input type="reset" value="اعادة تعيين">
+            <br>
+            <hr>
+
+        </form>
+
+
+
+        <br>
 
     </table>
 
@@ -136,7 +191,7 @@
 
 
 
-    <footer>
+    <footer id="contact">
         <P> للتواصل عن طريق <a href="mailto:445161035@tvtc.edu.sa"> <b> بريدي الالكتروني </b> </a> </P>
 
         <hr>
