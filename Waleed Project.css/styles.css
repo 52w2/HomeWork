@@ -33,3 +33,9 @@ h3 {
    height: 50px;
    text-align: center;
 }
+
+* {
+   margin: 10;
+   padding: 10;
+   box-sizing: border-box;
+}
